@@ -1,0 +1,675 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    color: whitesmoke;
+    background-color: #131313;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 500ms;
+}
+
+body::-webkit-scrollbar{
+    border-radius: 5px;
+    width: 10px;
+    background-color: rgb(45, 44, 44);
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section1 .header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:25px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    /* background: linear-gradient(to bottom, black,  #131313); */
+}
+
+.section1 .header center h2{
+    margin-right: -75px;
+}
+
+.section1 .header img{
+    width: 200px;
+    height: 20px;
+    object-fit: cover;
+    margin-bottom: 50px;
+    /* margin-top: 50px; */
+    /* padding-top: 50px; */
+}
+
+.section1 .header button{
+    position: absolute;
+    top:  -5px;
+    right: 10px;
+    font-size: 10px;
+    border: solid white 1px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.section1 .bodyclass .overtop{
+    position: relative;
+    
+    z-index: 0;
+}
+
+.section1 .bodyclass .overtop .blurys{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.section1 .bodyclass .overtop .blurys .one{
+    width: 200px;
+    /* height: 100px; */
+    box-shadow: 0px 0px 5000px 50px rgba(255, 77, 0, 0.37);
+    background: transparent;
+    border: none;
+}
+.section1 .bodyclass .overtop .blurys .two{
+    width: 200px;
+    /* height: 100px; */
+    box-shadow: 0px 0px 5000px 50px rgba(154, 21, 206, 0.493);
+    background: transparent;
+    border: none;
+
+}
+.section1 .bodyclass .overtop .blurys .three{
+    width: 200px;
+    /* height: 100px; */
+    box-shadow: 0px 0px 5000px 50px rgba(30, 143, 255, 0.306);
+    background: transparent;
+    border: none;
+
+}
+.section1 .bodyclass .overtop .blurys .four{
+    width: 200px;
+    /* height: 100px; */
+    box-shadow: 0px 0px 5000px 50px  rgba(7, 169, 145, 0.304);
+    background: transparent;
+    border: none;
+}
+
+
+.section1 .bodyclass h1{
+    position: absolute;
+    top: -100px;
+    left: 150px;
+    font-size: 40px;
+    width: 80%;
+    height: 150px;
+    /* box-shadow: 0px 0px 50000px 50px  rgba(255, 166, 0, 0.457) ; */
+     background: transparent;
+}
+
+.section1 .bodyclass .card1 {
+    margin-top: 100px;
+    /* background-color: purple; */
+    background: linear-gradient(to top right, rgb(62, 0, 128),  rgb(182, 21, 206));
+    width: 45%;
+    padding: 30px;
+    height: 230px;
+    border-radius: 18px;
+    z-index: 2;
+}
+
+
+
+.section1 .bodyclass .card1  h2{
+    background: transparent;
+    background: transparent;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 8px;
+}
+
+.section1 .bodyclass .card1  h2 b{
+    background: transparent;
+    background: transparent;
+    font-weight: bolder;
+}
+
+.section1 .bodyclass .card1 button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 18px;
+    width: 60%;
+    border-radius: 300px;
+    box-shadow: 0px 0px 15px #1212128f;
+}
+
+.section1 .bodyclass .card1 button:hover{
+    color: #121212;
+    background-color: white;
+}
+
+.section1 .bodyclass .card1 span{
+    background: transparent;
+    line-height: 40px;
+}
+
+.section1 .bodyclass .card1  a{
+    background: transparent;
+    color: rgba(255, 255, 255, 0.724);
+
+}
+
+.section1 .bodyclass .card2 {
+    /* background-color: orange; */
+    background: linear-gradient(to top right, rgb(250, 81, 2), rgb(243, 158, 2));
+    width: 45%;
+    padding: 30px;
+    border-radius: 18px;
+    margin-top: 50px;
+    height: 380px;
+}
+
+.section1 .bodyclass .card2 h2{
+    background: transparent;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 8px;
+}
+
+.section1 .bodyclass .card2 h2 b{
+    background: transparent;
+    font-weight: bolder;
+}
+
+.section1 .bodyclass .card2 button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 18px;
+    width: 60%;
+    border-radius: 300px;
+    box-shadow: 0px 0px 15px #1212128f;
+}
+
+.section1 .bodyclass .card2 button:hover{
+    color: #121212;
+    background-color: white;
+}
+
+
+.section1 .bodyclass .card2 .price{
+    margin-top: -17px;
+    background: transparent;
+}
+
+.section1 .bodyclass .card2 span{
+    background: transparent;
+    line-height: 40px;
+}
+
+.section1 .bodyclass .card2 a{
+    background: transparent;
+    color: rgba(255, 255, 255, 0.724);
+}
+
+.section1 .bodyclass .card3{
+    /* background-color: rgb(28, 148, 196); */
+    background: linear-gradient(to top right, rgba(154, 21, 206, 0.797), dodgerblue, rgb(7, 169, 145) );
+    width: 45%;
+    padding: 30px;
+    border-radius: 18px;
+    margin-top: 50px;
+    height: 340px;
+}
+
+.section1 .bodyclass .card3 h2{
+    background: transparent;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 8px;
+}
+
+.section1 .bodyclass .card3 b{
+    background: transparent;
+    font-weight: bolder;
+}
+
+.section1 .bodyclass .card3 button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 18px;
+    width: 60%;
+    border-radius: 300px;
+    box-shadow: 0px 0px 15px #1212128f;
+}
+
+.section1 .bodyclass .card3 button:hover{
+    color: #121212;
+    background-color: white;
+}
+
+.section1 .bodyclass .card3 .price{
+    margin-top: -17px;
+    background: transparent;
+}
+
+.section1 .bodyclass .card3 span{
+    background: transparent;
+    line-height: 40px;
+}
+
+.section1 .bodyclass .card3 a{
+    background: transparent;
+    color: rgba(255, 255, 255, 0.724);
+}
+
+.section1 .footer{
+    margin-top: 20px;
+    border: solid rgba(255, 255, 255, 0.58) 1px;
+    width: 45%;
+    padding: 10px 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.section1 .footer button{
+    position: absolute;
+    right: 10px;
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 25px;
+    background: linear-gradient(to top right, rgba(154, 21, 206, 0.911), dodgerblue, rgb(7, 169, 145) );
+}
+
+.section2{
+    margin-top: 90px;
+}
+
+.section2 center{
+    color: gray;
+}
+
+.section2 center h1{
+    margin-bottom: 25px;
+    font-size: 45px;
+}
+
+.section2 center h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.section2 img{
+    width: 600px;
+    object-fit: cover;
+    margin-left: -180px;
+    margin-top: 20px;
+}
+
+.section2 center button{
+    margin: 40px;
+    background-color: white;
+    color: #121212;
+    padding: 16px 30px;
+    border-radius: 300px;
+}
+
+.section3 center{
+    margin-top: 50px;
+    color: gray;
+}
+
+.section3 center h2{
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.section3 center button{
+    margin: 40px;
+    background-color: white;
+    color: #121212;
+    padding: 16px 30px;
+    border-radius: 300px;
+}
+
+.section3 .designedpanel img{
+    margin-top: 30px;
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.section4 center{
+    margin-top: 50px;
+    color: gray;
+}
+
+.section4 center  h1{
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.section4 center .row{
+    display: flex;
+    justify-content: space-between;
+    width: 1230px;
+    height: 300px;
+    overflow-x: scroll;
+    margin-top: 50px;
+}
+
+.section4 center .row::-webkit-scrollbar{
+    width: 1px;
+}
+
+
+.section4 center .row .album{
+    width: 230px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    background: transparent;
+    margin: 0px 25px;
+    position: relative;
+}
+
+.section4 center .row .album img{
+    width: 230px;
+    height: 230px;
+    border-radius: 4px;
+}
+
+.section4 center .row .album .float{
+    position: absolute;
+    bottom: 25px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1px;
+}
+
+ .section4 center .row .album i{
+     background: transparent;  
+     font-size: 20px;
+    color:black;
+    border-radius: 2000px; 
+    margin-left: 2px;
+    margin-top: 1px;
+}
+
+
+
+
+
+.section4 center .row .album .write{
+    color: gray;
+}
+
+.section4 center button{
+    margin: 0 40px;
+    background-color: white;
+    color: #121212;
+    padding: 16px 30px;
+    border-radius: 300px;
+    margin-bottom: 150px;
+}
+
+
+
+.section5 center{
+    margin-top: 50px;
+    width: 50%;
+}
+
+.section5 .header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.section5 .header .line{
+    width: 60%;
+    border: solid 1px rgba(128, 128, 128, 0);
+    background-color: gray;
+    background: linear-gradient(to right, #131313, gray, #131313);
+    border: solid 1px linear-gradient(to right, #131313, gray, #131313);
+}
+
+.section5 .header  .What{
+    width: 200px;
+    height: 30px;
+    padding: 0px 5px;
+    position: absolute;
+    top: -10px;
+    background-color:  #131313;
+}
+
+.section5 .bodycomponents{
+    color: gray;
+}
+
+.section5 .bodycomponents h1{
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.section5 .bodycomponents img{
+    margin-top: 10px;
+    width: 65%;
+    object-fit: cover;
+}
+
+.section5 .bodycomponents button{
+    margin: 40px;
+    background-color: white;
+    color: #121212;
+    padding: 16px 30px;
+    border-radius: 300px;
+}
+
+.section6 {
+    margin-top: 50px;
+    width: 50%;
+}
+
+.section6 center h1{
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.section6 center .bodycomponents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section6 center .bodycomponents .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section6 center .bodycomponents .row .left{
+    text-align: left;
+    margin: 10px 0px;
+    line-height: 25px;
+}
+
+.section6 center .bodycomponents .row .left h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.wrpbrd{
+    margin-top: 20px;
+    border-bottom: solid rgba(128, 128, 128, 0.107) 1px;
+}
+.section7{
+    padding: 90px;
+    width: 50%;
+    font-size: 13px;
+    line-height: 22px;
+    color: gray;
+    text-align: left;
+}
+
+.section8{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section8 .top {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.section8 .top .apple {
+    background-color: black;
+    width: 120px;
+    border: solid white 1px;
+    padding: 6px 5px;
+    border-radius: 8px;
+    margin: 0 2px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6px;
+    align-items: center;
+}
+
+.section8 .top .apple i{
+    font-size: 30px;
+    background: transparent;
+}
+
+
+.section8 .top .apple .write{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    background: transparent;
+}
+
+.section8 .top .apple .write .one{
+    font-size: 12px;
+    background: transparent;
+
+}
+.section8 .top .apple .write .two{
+    background: transparent;
+
+}
+
+
+
+
+.section8 .top .google {
+    background-color: black;
+    width: 120px;
+    border: solid white 1px;
+    padding: 6px 5px;
+    border-radius: 8px;
+    margin: 0 2px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6px;
+    align-items: center;
+}
+
+.section8 .top .google i{
+    font-size: 30px;
+    background: transparent;
+}
+
+.section8 .top .google .write{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    background: transparent;
+}
+
+.section8 .top .google .write .one{
+    font-size: 12px;
+    background: transparent;
+}
+
+.section8 .top .google .write .two{
+    background: transparent;
+
+}
+
+
+.section8 .middle {
+    margin: 0px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section8 .middle  .column{
+    text-align: left;
+    line-height: 35px;
+    color: gray;
+}
+
+.section8 .middle  .column b{
+    line-height: 70px;
+}
+
+.section8 .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 90px;
+}
+
+.section8 .left{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.section8 .left i{
+    margin-right: 18px;
+    font-size: 20px;
+}
+
+.section8 .left i:nth-child(1){
+    margin-left: 40px;
+}
+
+.section8 .mid img{
+    width: 300px;
+    height: 90px;
+    object-fit: cover;
+    margin-top: -30px;
+}
+
+.section8 .bottom .right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section8 .bottom .right .ash span{
+    color: gray;
+    margin-right: 8px;
+}
+
+.section8 .bottom .right .white i{
+    margin-right: 35px;
+}
+
